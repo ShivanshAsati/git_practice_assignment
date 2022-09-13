@@ -4,7 +4,7 @@ let str="NAMAN";
 
 let str1="";
 
-for(let i=0; i<=str.length-1; i++){
+for(let i=str.length-1; i>=0; i--){
 
 str1=str1+str[i];
 }
